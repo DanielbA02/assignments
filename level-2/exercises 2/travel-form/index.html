@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form name="flightForm">
+        <div id="flightForm">
+            First Name: <input type="text" name="first-name"/><br>
+            Last Name: <input type="text" name="last-name"/><br>
+            
+            Age: <input type="number" name="age" value="Age"/><br>
+            
+            Male:   <input type="radio" name="gender" value="Male"/>
+            Female: <input type="radio" name="gender" value="Female"/><br>
+
+            Please select a location you would like to fly to:
+            <select name="city">
+                <option value="New Zealand">New Zealand</option>
+                <option value="Paris">Paris</option>
+                <option value="Maui">Chicago</option>
+            </select><br>
+            
+            Please select any or all dietary restrictions that apply:
+            Vegetarian: <input type="checkbox" value="vegetarian" name="dietary"/>
+            Kosher: <input type="checkbox" value="kosher" name="dietary"/>
+            Lactose Free: <input type="checkbox" value="lactose free" name="dietary"/><br>
+
+            <button>Submit</button>
+        </div>
+    </form>
+
+    <script src="app.js"></script>
+</body>

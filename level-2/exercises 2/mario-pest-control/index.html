@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mario Pest Control</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Skranji">
+</head>
+<body>
+    <div id="background">
+        <div id="container">
+            <h1>Mario Pest Control</h1>
+            <h3>"It's tha fee!" <br>- Mario!</h3>
+                <h4 id="summary-title">Pest Removal Summary</h4>
+                
+            
+            <footer id="footer">
+                    <address>
+                        Mario Pest Control, Inc. <br>
+                        <a href="www.mario-pest-control.com" target="_blank">Mario Pest Control</a><br>
+                        email: <a href="mailto:mario@mario-pest-control.com">Mario</a><br>
+                        123 Rainbow Rd,<br>
+                        Another Castle, Mushroom Kingdom
+                    </address>
+                </footer>
+        </div>
+<div id="pest">
+    <div class="pest-box" name="goomba" id="goomba-box">
+        <form id="goomba-form">
+            <button class="pestButton" id="goomba-button" name="goomba"></button>
+            <h4>Goomba: 5 coins</h4> 
+            <input type="number" placeholder="0" class="input" id="goomba" name="input">
+        </form>
+    </div>
+    <div class="pest-box" name="bobomb" id="bobomb-box">
+        <form id="bobomb-form">
+            <button  class="pestButton" id="bobomb-button" name="bobomb"></button>
+            <h4>Bob-omb: 7 coins</h4>
+            <input type="number" placeholder="0" class="input" id="bobomb" name="input">
+        </form>
+    </div>
+    <div class="pest-box" name="cheepCheep" id="cheepCheepBox">
+        <form id="cheep-cheep-form">
+            <button class="pestButton" id="cheep-cheep-button" name="cheepCheep"></button>
+            <h4>Cheep Cheep: 11 coins</h4>
+            <input type="number" placeholder="0" class="input" id="cheepCheep" name="input">
+        </form>
+    </div>
+    <div class="pest-box" name="totalBox" id="total">
+        <h4 id="total-display">Total: </h4>
+        <output id="output"></output>
+        <button id="submit-button" class="button" name="submit">Submit</button>
+        <button id="clear-button" class="button" name="clear">Clear Total</button>
+    </div>
+</div>
+    </div>    
+    <div id="brick-div">
+    </div>
+    <script src="mario.js"></script>
+</body>
+</html>

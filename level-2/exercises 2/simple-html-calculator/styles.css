@@ -1,0 +1,47 @@
+html, body {
+    background-color: rgb(90, 80, 103);
+    margin: 10px;
+  }
+
+#div1 {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    width: 175px;
+    margin: 2em;
+    padding: 3em;
+    font-size: 2em;
+    background-color: red;
+}
+
+#div2 {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    width: 175px;
+    margin: 2em;
+    padding: 3em;
+    font-size: 2em;
+    background-color: blue;
+}
+
+#div3 {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    width: 175px;
+    margin: 2em;
+    padding: 3em;
+    font-size: 2em;
+    background-color: green;
+}
+
+#h1 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+    padding: 5em;
+    font-size: 3em;
+    color: white;
+    background-color: black;
+}

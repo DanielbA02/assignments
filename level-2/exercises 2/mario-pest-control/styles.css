@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    font-family: 'Skranji', cursive;
+    color:white;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h1, h2, h3, h4, h5{
+    line-height: 23px;
+}
+
+form {
+    border: 6px solid whitesmoke;
+    padding-top: 10px;
+    background-color: firebrick;
+    width:300px;
+    text-align: center;
+}
+
+
+input{
+    height:50px;
+    width: 50px;
+    margin-top: 12px;
+    padding:8px;
+    border: 2px white solid;
+    position: relative;
+    border-radius: 4px;
+    font-family: 'Skranji', cursive;
+    font-size: 1.5em;
+}
+
+.pest-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.pestButton{
+    width:75px;
+    height:75px;
+    border: 4px #6A0400 solid;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.pest-box h4{
+    padding-top: 28px;
+    font-size: 1em;
+}
+
+.button{
+    font-family: 'Skranji', cursive;
+    font-size: 1em;
+    padding: 4px;
+    color:white;
+    background-color: rgba(255,73,73,.9);
+    border: 4px solid white;
+    border-radius: 4px;
+}
+
+#total{
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+}
+
+#total-display{
+    flex:.9;
+}
+
+#background {
+    height: 80vh;
+    background: url("background.png");
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+}
+
+#goomba-button{
+    background-image: url(goomba.png);
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
+
+#bobomb-button{
+    background-image: url(bobomb.png);
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
+
+#cheep-cheep-button{
+    background-image: url(Cheep_Cheep.png);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 4px,0px;
+}
+
+#brick-div {
+    height:20vh;
+    background-image: url("brick.png");
+    background-size: 125px;
+}
