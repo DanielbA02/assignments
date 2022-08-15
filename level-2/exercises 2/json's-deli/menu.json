@@ -1,0 +1,55 @@
+{
+    "menu": [{
+        "Appetizers": {
+            "Easy Bacon-Wrapped Shrimp": {
+                "ingredients" : ["shrimp", "bacon", "butter", "brown sugar", "chipotle powder"],
+                "description" : "These are sweet, savory, salty, crunchy, and delicious. "
+            }, 
+            "Cocktail Meatballs" : {
+                "ingredients" :["Frozen meatballs", "chili sauce", "grape jelly"],
+                "description" : "They're sweet and tangy with every bite. "
+            }
+        },
+        "Cold sandwiches": {
+            "Tuna Sandwhich" : {
+                "ingredients" : ["tuna", "white bread", "mayo"],
+                "description" : "The perfect amount of tuna and mayo. "
+            }, 
+            "Cherry Wood-Baked Ham" : {
+                "ingredients" : ["Cherry wood smoked ham", "bacon", "white bread", "mustard"],
+                "description" : "about 10 ounces of mouthwatering fillings. "
+            }
+        },
+        "Hot sandwiches": {
+            "Bacon and Eggs Breakfast Panini": {
+                "ingredients": ["scrambled eggs", "crispy bacon", "cheese", "toast"],
+                "description": "A great way to bring breakfast on the go. "
+            }, 
+            "Homemade Sloppy Joes": {
+                "ingredients" : ["ground beef", "diced tomato", "burger bread", "sloppy-joe mix"],
+                "description" : "They're juicy, messy, and super easy to whip up! "
+            }
+        },
+        "Drinks" : {
+            "Sweet Tea" : {
+                "ingredients" : ["sweet tea"],
+                "Decsription" : "Perfectly brewed sweet tea. "
+            }, 
+            "Strawberry Lemonade": {
+                "ingredients" : ["Lemonade", "Stawberries"],
+                "description" : "Freshly brewed lemonade mixed with frsh picked starberries. "
+
+            }
+        } ,
+        "Desert" : {
+            "Easy Homemade Caramel Corn" : {
+                "ingredients" : ["caramel", "popcorn"],
+                "Description" : "A bucket full of a sweet treat! "
+            }, 
+            "Lemon Drop Cookies" : {
+                "ingredients": ["flour", "butter", "powdered sugar", "cornstarch", "lemon zest"], 
+                "Description" : "These shortbread-style cookies are melt-in-your-mouth good. "
+            }   
+        }
+    }]
+}

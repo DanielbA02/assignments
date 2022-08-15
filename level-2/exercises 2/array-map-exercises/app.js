@@ -26,7 +26,7 @@ function capitalizeNames(arr){
 console.log(capitalizeNames(["john", "JACOB", "jinGleHeimer", "schmidt"]));
 
 function namesOnly(arr){
-    namesOnly = arr.map(function(profile){
+    namesOnly = arr.map(function(profile) {
         return profile.name
     })
 }
@@ -55,7 +55,7 @@ console.log(namesOnly([
 ]))
 
 function makeStrings(arr){
-    matrixCheck = arr.map(function(profile){
+    matrixCheck = arr.map(function(profile) {
         if (profile.age > 21){
             return profile.name + " can go to the Matrix!"
         } else {
